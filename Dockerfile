@@ -1,3 +1,3 @@
 FROM nginx
 
-ADD ./content/ /usr/nginx/share/html/
+ADD ./content/* /usr/nginx/share/html/
